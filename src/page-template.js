@@ -57,7 +57,7 @@ const generateProjects = projectsArr => {
 };
 
 module.exports = templateData => {
-    // destructure page data by section -- this will create 3 variabless based on data in templateData
+    // destructure page data by section -- this will create 3 variables based on data in templateData
     const { projects, about, ...header } = templateData;
 
     return `
